@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  hash = {dog => "Mikko"}
+  hash = { "dog" => "Mikko"}
 end
 
 def pioneer
@@ -15,7 +15,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hash = { "boy" => "Kim"}
+  hash[key] = value
 end
 
 def read_from_hash(hash, key)
